@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "companyName": "AL-MANEEF CO.",
+    "title": "Quality Sanitary & Plastic Materials",
+    "subtitle": "Manufacturing Excellence Since 1985",
+    "cta": "Explore Our Products"
+  },
+  "about": {
+    "title": "About AL-MANEEF CO.",
+    "subtitle": "Leading Manufacturer of Sanitary and Plastic Materials"
+  },
+  "products": {
+    "title": "Our Products & Services",
+    "subtitle": "Comprehensive Solutions for Your Needs",
+    "viewDetails": "View Details"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "We'd love to hear from you",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your requirements...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent successfully.",
+      "error": "Something went wrong. Please try again later."
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Please enter a valid phone number",
+      "messageRequired": "Message is required",
+      "messageMinLength": "Message must be at least 10 characters"
+    }
+  },
+  "footer": {
+    "description": "Leading manufacturer of sanitary and plastic materials with over 35 years of experience.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved",
+    "managementAddress": "Management Address",
+    "factoryAddress": "Factory Address"
+  }
+}
+

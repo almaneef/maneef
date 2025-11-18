@@ -1,0 +1,39 @@
+{
+  "name": "AL-MANEEF CO.",
+  "nameAr": "شركة المنيف",
+  "founded": "1985",
+  "industry": "Sanitary and Plastic Materials Manufacturing",
+  "industryAr": "تصنيع المواد الصحية والبلاستيكية",
+  "contact": {
+    "email": "info@almaneef.com",
+    "phone": "00218943624444",
+    "phoneInternational": "00218943624444",
+    "managementAddress": {
+      "en": "Libya - Tobruk - City Center: Near the Civil Registry",
+      "ar": "ليبيا - طبرق - وسط المدينة : بجوار السجل المدنى"
+    },
+    "factoryAddress": {
+      "en": "Tobruk / Al-Khuwayr - Airport Road",
+      "ar": "طبرق. / الخوير - طريق المطار"
+    },
+    "address": {
+      "street": "Industrial Area, Block 5",
+      "city": "Riyadh",
+      "state": "Riyadh Province",
+      "postalCode": "12345",
+      "country": "Saudi Arabia"
+    },
+    "addressAr": {
+      "street": "المنطقة الصناعية، قطعة 5",
+      "city": "الرياض",
+      "state": "منطقة الرياض",
+      "postalCode": "12345",
+      "country": "المملكة العربية السعودية"
+    },
+    "workingHours": {
+      "en": "Sunday - Thursday: 8:00 AM - 5:00 PM",
+      "ar": "الأحد - الخميس: 8:00 صباحاً - 5:00 مساءً"
+    }
+  }
+}
+
