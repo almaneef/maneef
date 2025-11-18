@@ -8,7 +8,7 @@
   "hero": {
     "companyName": "AL-MANEEF CO.",
     "title": "Quality Sanitary & Plastic Materials",
-    "subtitle": "Manufacturing Excellence Since 1985",
+    "subtitle": "Manufacturing Excellence",
     "cta": "Explore Our Products"
   },
   "about": {
@@ -48,7 +48,7 @@
     }
   },
   "footer": {
-    "description": "Leading manufacturer of sanitary and plastic materials with over 35 years of experience.",
+    "description": "Leading manufacturer of sanitary and plastic materials.",
     "quickLinks": "Quick Links",
     "contactInfo": "Contact Information",
     "followUs": "Follow Us",

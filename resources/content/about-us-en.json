@@ -3,7 +3,7 @@
   "sections": [
     {
       "heading": "Our Story",
-      "content": "Founded in 1985, AL-MANEEF CO. has been a trusted name in the sanitary and plastic materials manufacturing industry for over 35 years. We started as a small family business with a vision to provide high-quality products to the local market, and have since grown into a leading manufacturer serving clients across the region."
+      "content": "AL-MANEEF CO. has been a trusted name in the sanitary and plastic materials manufacturing industry. We started as a small family business with a vision to provide high-quality products to the local market, and have since grown into a leading manufacturer serving clients across the region."
     },
     {
       "heading": "Our Mission",
@@ -19,10 +19,6 @@
     }
   ],
   "stats": [
-    {
-      "value": "35+",
-      "label": "Years of Experience"
-    },
     {
       "value": "500+",
       "label": "Satisfied Clients"

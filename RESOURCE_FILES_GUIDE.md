@@ -32,6 +32,7 @@ These files contain all user-facing text on the website.
 ### Structure
 
 The files are organized by section:
+
 - `nav` - Navigation menu items
 - `hero` - Hero section text
 - `about` - About section headings
@@ -42,6 +43,7 @@ The files are organized by section:
 ### Example: Changing Hero Section Text
 
 **English (`en.json`):**
+
 ```json
 {
   "hero": {
@@ -53,6 +55,7 @@ The files are organized by section:
 ```
 
 **Arabic (`ar.json`):**
+
 ```json
 {
   "hero": {
@@ -168,16 +171,6 @@ Contains the About Us section content.
       "heading": "Section 2 Heading",
       "content": "Section 2 content text here..."
     }
-  ],
-  "stats": [
-    {
-      "value": "35+",
-      "label": "Years of Experience"
-    },
-    {
-      "value": "500+",
-      "label": "Satisfied Clients"
-    }
   ]
 }
 ```
@@ -213,10 +206,6 @@ You can add more statistics:
 {
   "stats": [
     {
-      "value": "35+",
-      "label": "Years"
-    },
-    {
       "value": "500+",
       "label": "Clients"
     },
@@ -245,17 +234,17 @@ Controls colors, fonts, spacing, and other visual elements.
 ```json
 {
   "colors": {
-    "primary": "#1a365d",        // Main brand color
-    "primaryDark": "#0f2439",    // Darker shade
-    "primaryLight": "#2d4a6b",   // Lighter shade
-    "secondary": "#e63946",      // Secondary color
-    "accent": "#f77f00",         // Accent color (buttons, highlights)
-    "background": "#ffffff",     // Page background
-    "backgroundAlt": "#f8f9fa",  // Alternate background
-    "text": "#1a1a1a",           // Main text color
-    "textLight": "#6c757d",      // Light text
-    "success": "#28a745",         // Success messages
-    "error": "#dc3545"           // Error messages
+    "primary": "#1a365d", // Main brand color
+    "primaryDark": "#0f2439", // Darker shade
+    "primaryLight": "#2d4a6b", // Lighter shade
+    "secondary": "#e63946", // Secondary color
+    "accent": "#f77f00", // Accent color (buttons, highlights)
+    "background": "#ffffff", // Page background
+    "backgroundAlt": "#f8f9fa", // Alternate background
+    "text": "#1a1a1a", // Main text color
+    "textLight": "#6c757d", // Light text
+    "success": "#28a745", // Success messages
+    "error": "#dc3545" // Error messages
   }
 }
 ```
@@ -278,6 +267,7 @@ Controls colors, fonts, spacing, and other visual elements.
 ```
 
 **Note:** Fonts are loaded from Google Fonts. To change fonts:
+
 1. Update the font names here
 2. Update the `@import` in `app/globals.css`
 
@@ -288,14 +278,14 @@ Controls padding and margins throughout the site:
 ```json
 {
   "spacing": {
-    "xs": "0.25rem",   // 4px
-    "sm": "0.5rem",    // 8px
-    "md": "1rem",      // 16px
-    "lg": "1.5rem",    // 24px
-    "xl": "2rem",      // 32px
-    "2xl": "3rem",     // 48px
-    "3xl": "4rem",     // 64px
-    "4xl": "6rem"      // 96px
+    "xs": "0.25rem", // 4px
+    "sm": "0.5rem", // 8px
+    "md": "1rem", // 16px
+    "lg": "1.5rem", // 24px
+    "xl": "2rem", // 32px
+    "2xl": "3rem", // 48px
+    "3xl": "4rem", // 64px
+    "4xl": "6rem" // 96px
   }
 }
 ```
@@ -313,6 +303,7 @@ Controls padding and margins throughout the site:
 ### 2. Testing Changes
 
 After editing:
+
 1. Save the file
 2. Refresh the browser
 3. Check both English and Arabic versions
@@ -321,6 +312,7 @@ After editing:
 ### 3. Backup
 
 Before making major changes:
+
 1. Copy the original file
 2. Make your edits
 3. Test thoroughly
@@ -335,12 +327,14 @@ Before making major changes:
 ### 5. Common Mistakes to Avoid
 
 ❌ **Don't:**
+
 - Remove commas between items
 - Use single quotes instead of double quotes
 - Forget to close brackets
 - Mix up English and Arabic content
 
 ✅ **Do:**
+
 - Keep the same structure in both language files
 - Test after each change
 - Keep backups
@@ -351,24 +345,30 @@ Before making major changes:
 ## Quick Reference
 
 ### Navigation Menu
+
 - `resources/strings/en.json` → `nav` section
 - `resources/strings/ar.json` → `nav` section
 
 ### Hero Section
+
 - `resources/strings/en.json` → `hero` section
 - `resources/strings/ar.json` → `hero` section
 
 ### Contact Information
+
 - `resources/company-info.json` → `contact` section
 
 ### Social Media
+
 - `resources/social-links.json`
 
 ### About Us
+
 - `resources/content/about-us-en.json`
 - `resources/content/about-us-ar.json`
 
 ### Colors & Styling
+
 - `resources/theme.json` → `colors` section
 
 ---
@@ -376,6 +376,7 @@ Before making major changes:
 ## Need Help?
 
 If you encounter issues:
+
 1. Check JSON syntax with an online validator
 2. Ensure all quotes and brackets are properly closed
 3. Verify file encoding is UTF-8
@@ -389,12 +390,14 @@ If you encounter issues:
 **Scenario:** Update company phone number and hero title
 
 1. **Update Phone Number:**
+
    - Open `resources/company-info.json`
    - Find `"phone"` and `"phoneInternational"`
    - Update both values
    - Save file
 
 2. **Update Hero Title:**
+
    - Open `resources/strings/en.json`
    - Find `"hero"` → `"title"`
    - Update the value
@@ -411,4 +414,3 @@ If you encounter issues:
    - Test on mobile view
 
 Done! ✅
-
